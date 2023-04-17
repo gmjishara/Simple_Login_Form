@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+    <div class="background">
+    <form>
+        <div class="rectangle">
+            <div class="circle"></div>
+            <div>
+                <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;" >Login Here</h2>
+            </div>
+            <div class="contentdiv">
+                <p class="para1"><b>Username</b></p>
+                <input id="input1" type="text" placeholder="Enter Username" class="no-outline">
+
+                <p class="para2"><b>Password</b></p>
+                <input id="input2" type="password" placeholder="Enter Password" class="no-outline">
+            </div>
+            <button id="btn" onclick="ifFunction()" type="button">Login</button>
+            <h3 id="h3" style="color: white; align-self:baseline; margin-left: 10px; font-family: Arial, Helvetica, sans-serif;;">Login Status:</h3>
+        </div>
+    </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
